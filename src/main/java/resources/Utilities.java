@@ -29,6 +29,7 @@ public class Utilities {
 
 	public Page initializeBrowser() throws IOException {
 		Properties prop = new Properties();
+		System.out.println("debugging"+System.getProperty("user.dir"));
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
