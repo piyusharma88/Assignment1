@@ -2,44 +2,44 @@
 <testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-08T18:33:56 EDT" name="Suite" finished-at="2021-06-08T18:34:12 EDT" duration-ms="16717">
+  <suite started-at="2021-06-09T21:06:30 EDT" name="Suite" finished-at="2021-06-09T21:06:42 EDT" duration-ms="12163">
     <groups>
     </groups>
-    <test started-at="2021-06-08T18:33:56 EDT" name="Test" finished-at="2021-06-08T18:34:12 EDT" duration-ms="16717">
+    <test started-at="2021-06-09T21:06:30 EDT" name="Test" finished-at="2021-06-09T21:06:42 EDT" duration-ms="12163">
       <class name="Workwolf.Assignment1TestCases.WebPageTest">
-        <test-method is-config="true" signature="browserInitialize()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-08T18:33:41 EDT" name="browserInitialize" finished-at="2021-06-08T18:33:56 EDT" duration-ms="15045" status="PASS">
+        <test-method is-config="true" signature="browserInitialize()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-09T21:06:22 EDT" name="browserInitialize" finished-at="2021-06-09T21:06:30 EDT" duration-ms="8305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialize -->
-        <test-method signature="businessLogin()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-08T18:33:56 EDT" name="businessLogin" finished-at="2021-06-08T18:34:04 EDT" duration-ms="8593" status="PASS">
+        <test-method signature="businessLogin()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-09T21:06:30 EDT" name="businessLogin" finished-at="2021-06-09T21:06:36 EDT" duration-ms="5629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- businessLogin -->
-        <test-method signature="contactUs()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-08T18:34:04 EDT" name="contactUs" finished-at="2021-06-08T18:34:06 EDT" duration-ms="1778" status="PASS">
+        <test-method signature="contactUs()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-09T21:06:36 EDT" name="contactUs" finished-at="2021-06-09T21:06:37 EDT" duration-ms="1318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method signature="invalidLogin()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-08T18:34:06 EDT" name="invalidLogin" finished-at="2021-06-08T18:34:07 EDT" duration-ms="1141" status="PASS">
+        <test-method signature="invalidLogin()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-09T21:06:37 EDT" name="invalidLogin" finished-at="2021-06-09T21:06:38 EDT" duration-ms="918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method signature="pageNavigation()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-08T18:34:07 EDT" name="pageNavigation" finished-at="2021-06-08T18:34:09 EDT" duration-ms="1213" status="PASS">
+        <test-method signature="pageNavigation()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-09T21:06:38 EDT" name="pageNavigation" finished-at="2021-06-09T21:06:39 EDT" duration-ms="877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageNavigation -->
-        <test-method signature="privacy()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-08T18:34:09 EDT" name="privacy" finished-at="2021-06-08T18:34:10 EDT" duration-ms="1151" status="PASS">
+        <test-method signature="privacy()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-09T21:06:39 EDT" name="privacy" finished-at="2021-06-09T21:06:40 EDT" duration-ms="953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- privacy -->
-        <test-method signature="terms()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-08T18:34:10 EDT" name="terms" finished-at="2021-06-08T18:34:11 EDT" duration-ms="1066" status="PASS">
+        <test-method signature="terms()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-09T21:06:40 EDT" name="terms" finished-at="2021-06-09T21:06:41 EDT" duration-ms="977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terms -->
-        <test-method signature="validLogin()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-08T18:34:11 EDT" name="validLogin" finished-at="2021-06-08T18:34:12 EDT" duration-ms="1690" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-09T21:06:41 EDT" name="validLogin" finished-at="2021-06-09T21:06:42 EDT" duration-ms="1428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-08T18:34:13 EDT" name="browserClose" finished-at="2021-06-08T18:34:13 EDT" duration-ms="925" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:Workwolf.Assignment1TestCases.WebPageTest@124c278f]" started-at="2021-06-09T21:06:42 EDT" name="browserClose" finished-at="2021-06-09T21:06:43 EDT" duration-ms="683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->

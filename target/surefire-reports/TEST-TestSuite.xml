@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="20.738" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="26.152" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\sunpr\Workwolf\Assignment1\target\test-classes;C:\Users\sunpr\Workwolf\Assignment1\target\classes;C:\Users\sunpr\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\sunpr\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\sunpr\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\playwright\1.11.1\playwright-1.11.1.jar;C:\Users\sunpr\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sunpr\.m2\repository\org\java-websocket\Java-WebSocket\1.5.1\Java-WebSocket-1.5.1.jar;C:\Users\sunpr\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\driver\1.11.1\driver-1.11.1.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\driver-bundle\1.11.1\driver-bundle-1.11.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\sunpr\Workwolf\Assignment1\target\test-classes;C:\Users\sunpr\Workwolf\Assignment1\target\classes;C:\Users\sunpr\.m2\repository\commons-io\commons-io\2.9.0\commons-io-2.9.0.jar;C:\Users\sunpr\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\sunpr\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\sunpr\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\sunpr\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\sunpr\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sunpr\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sunpr\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sunpr\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sunpr\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\playwright\1.11.1\playwright-1.11.1.jar;C:\Users\sunpr\.m2\repository\org\java-websocket\Java-WebSocket\1.5.1\Java-WebSocket-1.5.1.jar;C:\Users\sunpr\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\driver\1.11.1\driver-1.11.1.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\driver-bundle\1.11.1\driver-bundle-1.11.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\sunpr\AppData\Local\Temp\surefire11156296489379109272\surefirebooter2027929755121647028.jar C:\Users\sunpr\AppData\Local\Temp\surefire11156296489379109272 2021-06-08T10-49-40_971-jvmRun1 surefire2528280268277390045tmp surefire_012700815102723539463tmp"/>
+    <property name="sun.java.command" value="C:\Users\sunpr\AppData\Local\Temp\surefire10886964427065435043\surefirebooter9036025252815503079.jar C:\Users\sunpr\AppData\Local\Temp\surefire10886964427065435043 2021-06-09T21-36-48_274-jvmRun1 surefire16339553797600960089tmp surefire_013354223209341897274tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\sunpr\Workwolf\Assignment1\target\test-classes;C:\Users\sunpr\Workwolf\Assignment1\target\classes;C:\Users\sunpr\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\sunpr\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\sunpr\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\playwright\1.11.1\playwright-1.11.1.jar;C:\Users\sunpr\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sunpr\.m2\repository\org\java-websocket\Java-WebSocket\1.5.1\Java-WebSocket-1.5.1.jar;C:\Users\sunpr\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\driver\1.11.1\driver-1.11.1.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\driver-bundle\1.11.1\driver-bundle-1.11.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\sunpr\Workwolf\Assignment1\target\test-classes;C:\Users\sunpr\Workwolf\Assignment1\target\classes;C:\Users\sunpr\.m2\repository\commons-io\commons-io\2.9.0\commons-io-2.9.0.jar;C:\Users\sunpr\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\sunpr\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\sunpr\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\sunpr\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\sunpr\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sunpr\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sunpr\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sunpr\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\sunpr\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\playwright\1.11.1\playwright-1.11.1.jar;C:\Users\sunpr\.m2\repository\org\java-websocket\Java-WebSocket\1.5.1\Java-WebSocket-1.5.1.jar;C:\Users\sunpr\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\driver\1.11.1\driver-1.11.1.jar;C:\Users\sunpr\.m2\repository\com\microsoft\playwright\driver-bundle\1.11.1\driver-bundle-1.11.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\sunpr"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sunpr\AppData\Local\Temp\surefire11156296489379109272\surefirebooter2027929755121647028.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sunpr\AppData\Local\Temp\surefire10886964427065435043\surefirebooter9036025252815503079.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -55,11 +55,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="businessLogin" classname="Workwolf.Assignment1TestCases.WebPageTest" time="5.517"/>
-  <testcase name="contactUs" classname="Workwolf.Assignment1TestCases.WebPageTest" time="1.383"/>
-  <testcase name="invalidLogin" classname="Workwolf.Assignment1TestCases.WebPageTest" time="0.837"/>
-  <testcase name="pageNavigation" classname="Workwolf.Assignment1TestCases.WebPageTest" time="1.03"/>
-  <testcase name="privacy" classname="Workwolf.Assignment1TestCases.WebPageTest" time="0.988"/>
-  <testcase name="terms" classname="Workwolf.Assignment1TestCases.WebPageTest" time="0.859"/>
-  <testcase name="validLogin" classname="Workwolf.Assignment1TestCases.WebPageTest" time="1.319"/>
+  <testcase name="businessLogin" classname="Workwolf.Assignment1TestCases.WebPageTest" time="6.369"/>
+  <testcase name="contactUs" classname="Workwolf.Assignment1TestCases.WebPageTest" time="1.674"/>
+  <testcase name="invalidLogin" classname="Workwolf.Assignment1TestCases.WebPageTest" time="1.139"/>
+  <testcase name="pageNavigation" classname="Workwolf.Assignment1TestCases.WebPageTest" time="1.184"/>
+  <testcase name="privacy" classname="Workwolf.Assignment1TestCases.WebPageTest" time="1.155"/>
+  <testcase name="terms" classname="Workwolf.Assignment1TestCases.WebPageTest" time="1.041"/>
+  <testcase name="validLogin" classname="Workwolf.Assignment1TestCases.WebPageTest" time="1.654"/>
 </testsuite>
