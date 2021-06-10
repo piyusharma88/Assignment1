@@ -22,7 +22,7 @@ public class WebPageTest extends Utilities {
 
 	static ExtentReports extent;
 	Page page;
-
+	ExtentTest test = null;
 	@BeforeSuite // Create Extent report and Initialize the browser
 	public void browserInitialize() throws IOException {
 		String path = System.getProperty("user.dir") + "\\reports\\index.html";
@@ -38,7 +38,7 @@ public class WebPageTest extends Utilities {
 
 	@Test // Verify if the Sign-up link is working
 	public void pageNavigation() throws IOException {
-		ExtentTest test = extent.createTest("Signup-page Navigation");
+		test = extent.createTest("Signup-page Navigation");
 		page.navigate(URL);
 		LoginPageObjects p = new LoginPageObjects(page);
 		p.lnkSignup();
@@ -50,7 +50,7 @@ public class WebPageTest extends Utilities {
 
 	@Test // Verify if the business login- link is working
 	public void businessLogin() throws IOException {
-		ExtentTest test = extent.createTest("Businesslogin-page Navigation");
+		test = extent.createTest("Businesslogin-page Navigation");
 		page.navigate(URL);
 		LoginPageObjects p = new LoginPageObjects(page);
 		p.lnkBusinessLogin();
@@ -62,7 +62,7 @@ public class WebPageTest extends Utilities {
 
 	@Test // Verify if the chat option is working as intended
 	public void chatOption() throws IOException {
-		ExtentTest test = extent.createTest("chatOption");
+		test = extent.createTest("chatOption");
 		page.navigate(URL);
 		LoginPageObjects p = new LoginPageObjects(page);
 		p.chatOption();
@@ -72,7 +72,7 @@ public class WebPageTest extends Utilities {
 
 	@Test // Verify if the Terms and Conditions link is directing to the right URL
 	public void terms() throws IOException {
-		ExtentTest test = extent.createTest("Terms and Conditions");
+		test = extent.createTest("Terms and Conditions");
 		page.navigate(URL);
 		LoginPageObjects p = new LoginPageObjects(page);
 		p.lnkTerms();
@@ -83,7 +83,7 @@ public class WebPageTest extends Utilities {
 
 	@Test // Verify if the Privacy Policy link is directing to the right URL
 	public void privacy() throws IOException {
-		ExtentTest test = extent.createTest("Privacy Policy");
+		test = extent.createTest("Privacy Policy");
 		page.navigate(URL);
 		LoginPageObjects p = new LoginPageObjects(page);
 		p.lnkPrivacy();
@@ -95,7 +95,7 @@ public class WebPageTest extends Utilities {
 
 	@Test // Verify if the Contact us link is directing to the right URL
 	public void contactUs() throws IOException {
-		ExtentTest test = extent.createTest("Contact Us link");
+		test = extent.createTest("Contact Us link");
 		page.navigate(URL);
 		LoginPageObjects p = new LoginPageObjects(page);
 		p.lnkContact();
@@ -107,7 +107,7 @@ public class WebPageTest extends Utilities {
 
 	@Test // Verify if the valid login credentials direct you to the expected page
 	public void validLogin() throws IOException {
-		ExtentTest test = extent.createTest("Valid login credentials");
+		test = extent.createTest("Valid login credentials");
 		page.navigate(URL);
 		LoginPageObjects p = new LoginPageObjects(page);
 		p.emailTextbox();
@@ -120,7 +120,7 @@ public class WebPageTest extends Utilities {
 
 	@Test // Verify if the user can sign-up with unregistered credentials
 	public void invalidLogin() {
-		ExtentTest test = extent.createTest("Invalid login Credentials");
+		test = extent.createTest("Invalid login Credentials");
 		page.navigate(URL);
 		LoginPageObjects p = new LoginPageObjects(page);
 		p.invalidEmailTextbox();

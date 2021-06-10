@@ -11,7 +11,6 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.BrowserType.LaunchOptions;
 
-
 public class Utilities {
 
 	public static final String URL = "https://app.front.workwolf.com/login";
@@ -23,14 +22,13 @@ public class Utilities {
 	public static final String expUrlPrivacy = "https://workwolf.com/privacyPolicy";
 	public static final String expUrlContact = "https://workwolf.com/contactSalesTeam";
 	public static final String expInvalidEmailMsg = "Couldn't find your Workwolf account. Please sign up first.";
- 	Page page;
+	Page page;
 	BrowserType browserType;
 	Browser browser;
 
 	public Page initializeBrowser() throws IOException {
 		Properties prop = new Properties();
-		System.out.println("debugging"+System.getProperty("user.dir"));
-		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/resources/data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 
@@ -62,9 +60,10 @@ public class Utilities {
 		}
 		return page;
 	}
- public void getScreenshotPath(String testcaseName, Page page)
- {
-	 page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("image" + testcaseName + ".png")).setFullPage(true));
- }
- 
- }
+
+	public void getScreenshotPath(String testcaseName, Page page) {
+		page.screenshot(
+				new Page.ScreenshotOptions().setPath(Paths.get("image" + testcaseName + ".png")).setFullPage(true));
+	}
+
+}
